@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+
+    <link rel="shortcut icon" href="IMAGENS/favicon.ico" type="image/x-icon">
+
+  
+</head>
+<h1>Imagens dinâmicas</h1>
+<p>Tente abrir este site em varios dispositivos diferentes, ou simplesmente aumente e diminua seu navegador</p>
+
+<picture>
+    <source media="(max-width: 600px)" srcset="IMAGENS/images.p.png" type="">
+    <source media="(max-width: 1000px)" srcset="IMAGENS/images.M.png" type="">
+    <img src="IMAGENS/images.G.png" alt="">
+
+</picture>
+
+<h1>Reproduzindo Áudios</h1>
+<p>Vamos aprender a reproduzir audio em HTML5</p>
+
+<audio preload="metadata" controls loop>
+    <source src="audio/03 - Wesley Safadão - Sonhei Que Tava Me Casando.mp3" type="audio/mpeg">
+    <source src="audio/03-Wesley-Safadão-Sonhei-Que-Tava-Me-Casando.ogg" type="audio/ogg">
+    <source src="audio/03-Wesley-Safadão-Sonhei-Que-Tava-Me-Casando.wav" type="audiio/wav">
+    
+</audio>
+<p>Infelizmente seu navegador não pode rerproduzir esse audio <a href="audio/03 - Wesley Safadão - Sonhei Que Tava Me Casando.mp3" target="_blank"> Clique aqui para baixar o arquivo em MP3</a></p>
+
+
+<!---MP3 -->
+
+<body>
+    
+</body>
+</html>

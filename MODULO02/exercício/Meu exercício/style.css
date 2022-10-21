@@ -1,0 +1,139 @@
+@charset "UTF-8";
+@font-face {
+    font-family:"Droid" ;
+    src: url("fontes/idroid.otf") format("opentype"), url("fontes/IDroid\ Bold.otf") format('opentype')
+
+}
+body{
+    background-color: #84e1ad;
+}
+header{
+   
+    color: white; 
+    margin: -10px -10px 0 -10px;
+    background-image: linear-gradient(to top, #066322, #2fa85d);
+    padding: 1px 0px 30px 0px;
+}
+header>h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:25px;
+}
+header>p{
+    text-align: center;
+    padding-left: 28%;
+    padding-right: 28%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: rgba(255, 255, 255, 0.877);
+}
+.linkstitulo a{
+    text-decoration: none;
+    color: #8feeba;
+    padding: 10px;
+    font-size: 20px;
+    margin: 0px;
+}
+.linkstitulo a:hover{
+    font-size: 30px;
+}
+#div1{
+    float: left;
+}
+#div2{
+    float: left;
+}
+#div3{
+    float: left;
+}
+#div4{
+    float: left;
+}
+main{
+    background-color: white;
+    margin: 0px 155px;
+    padding: 5px 20px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
+
+}
+main>h1{
+   font-family: "Droid", times, serif;
+   font-weight: normal;
+   color: #066322;
+   padding: 10px 0px 10px 0px;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.603);
+   margin: 0;
+
+
+}
+main>h2{
+    font-family: "droid", times, serif;
+    background-image: linear-gradient(to right, rgb(152, 219, 152), rgb(212, 212, 212));
+    color: #086b08;
+    ;
+    padding: 0px 20px;
+}
+main>p{
+    text-indent: 2em;/*espaço no parágrafo*/
+    margin:10px 0px 10px 0px;
+}
+#irina{
+    overflow: hidden; /*não mostrar a parte da imagem que irá transbordar da largura.*/
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 0px;
+    
+}
+#bugdroid{
+  text-align: center;
+}
+#video{
+    background-color: #066322;
+    padding: 20px 0px;
+    margin: 15px -20px;
+    text-align: center;
+    
+}
+.conteudoextra{
+    background-color: #b4d6c3;    
+    padding: 10px;
+}
+.h2extra{
+    background-color: #2fa85d;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 10px 10px;
+    margin: 0px;
+}
+.conteudoextra>p{
+    text-indent: 2em;
+    padding: 10px;
+    margin: 0px;
+}
+h2{
+    margin: 0px;
+}
+.lista{
+    list-style-image: url("imagens/certo.png");
+}
+.coluna1{
+    float: left;
+    padding-right: 300px;
+}
+footer{
+    text-indent: 2em;/*espaço no parágrafo*/
+}
+p>a{
+    text-decoration: none;
+    color: rgb(17, 136, 17);
+    font-weight: bolder;
+    text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.411);
+
+}
+
+
+
+
+
