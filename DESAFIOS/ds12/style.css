@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+
+@font-face{
+    font-family: "cabeçalho";
+    src: url(fontes/Passion_One/PassionOne-Bold.ttf);
+}
+
+
+header{
+    color: white;
+    background-color: black;
+    font-size: 4em;
+    font-family: "cabeçalho";
+   /* font-family: 'Passion One', cursiva;*/
+    
+}
+
+  
