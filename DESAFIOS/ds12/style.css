@@ -1,19 +1,97 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2? family= Passion+One & display=swap');
+
 
 @font-face{
-    font-family: "cabeçalho";
+    font-family: "passion one";
     src: url(fontes/Passion_One/PassionOne-Bold.ttf);
 }
-
-
-header{
-    color: white;
-    background-color: black;
-    font-size: 4em;
-    font-family: "cabeçalho";
-   /* font-family: 'Passion One', cursiva;*/
-    
+@font-face {
+    font-family: "Sriracha";
+    src: url(fontes/GoogleFonts-Sriracha/Sriracha-Regular.ttf);
 }
 
-  
+body{
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: black;
+    text-align: center; 
+}
+header > h1{
+    color: white;
+    font-family: "passion one";
+    font-size: 136px;
+    margin: 0px;
+    padding: 50px 0px 0px;
+}
+header > p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    margin: 0px;
+    padding: 0px 0px 50px;
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+a:hover{
+    text-decoration: underline;
+
+}
+.branco{
+    margin: 0px;
+    padding-top: 62px;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursiva;
+    font-size: 3.5vw;
+}
+#joaninha{
+    color: white;
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursiva;
+    font-size: 3.5vw;
+
+}
+#paginas{
+    color: white;
+    margin: 0px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-family: 'Sriracha', cursiva;
+    font-size: 3.5vw;
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    margin: 0px;
+    padding-bottom: 95px;
+}
+#joaninha > p{
+    background-color: #011501;
+    padding: 5px;
+    margin: 0px;
+    text-shadow: 1px 1px 0px black;
+    width: 95vh;
+}
+#paginas > p{
+    background-color:#011501;
+    padding: 5px;
+    margin: 0px;
+    text-shadow: 1px 1px 0px black;
+    width: 95vh;
+   
+}
