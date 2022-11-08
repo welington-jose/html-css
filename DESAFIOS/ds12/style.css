@@ -44,22 +44,25 @@ a:hover{
     text-decoration: underline;
 
 }
-.branco{
+.normal{
     margin: 0px;
-    padding-top: 62px;
-    padding-left: 30px;
+    padding: 62px 0px 62px 30px;
+}
+
+.normal > p{
+    margin: 0px;
+    padding: 0px 0px 96.61px;
     font-family: 'Sriracha', cursiva;
     font-size: 3.5vw;
 }
+
 #joaninha{
     color: white;
     background-image: url(imagens/background001.jpg);
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
+    padding: 5px;
     font-family: 'Sriracha', cursiva;
     font-size: 3.5vw;
 
@@ -67,31 +70,33 @@ a:hover{
 #paginas{
     color: white;
     margin: 0px;
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    padding-left: 30px;
+    padding: 5px;
     font-family: 'Sriracha', cursiva;
     font-size: 3.5vw;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
 }
-p{
-    margin: 0px;
-    padding-bottom: 95px;
-}
+
 #joaninha > p{
-    background-color: #011501;
+    background-color: rgba(0, 0, 0, 0.514);
     padding: 5px;
     margin: 0px;
     text-shadow: 1px 1px 0px black;
     width: 95vh;
 }
 #paginas > p{
-    background-color:#011501;
+    background-color:rgba(0, 0, 0, 0.514);
     padding: 5px;
     margin: 0px;
     text-shadow: 1px 1px 0px black;
     width: 95vh;
    
+}
+footer{
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    text-align: center;
 }
