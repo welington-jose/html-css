@@ -22,7 +22,7 @@ header{
 header > h1{
     color: white;
     font-family: "passion one";
-    font-size: 136px;
+    font-size: min(136px, 10vw);
     margin: 0px;
     padding: 50px 0px 0px;
 }
@@ -37,23 +37,29 @@ header > p > a{
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 16px;
     font-weight: bold;
 }
 a:hover{
     text-decoration: underline;
 
 }
+main{
+    line-height: 6em;
+}
+
+
+
 .normal{
     margin: 0px;
     padding: 62px 0px 62px 30px;
+    
 }
 
 .normal > p{
     margin: 0px;
     padding: 0px 0px 96.61px;
     font-family: 'Sriracha', cursiva;
-    font-size: 3.5vw;
+    font-size: min(48PX, 10vw);
 }
 
 #joaninha{
@@ -62,17 +68,17 @@ a:hover{
     background-size: cover;
     background-attachment: fixed;
     margin: 0px;
-    padding: 5px;
+    padding: 61.7px 0PX 61.7PX 30PX;
     font-family: 'Sriracha', cursiva;
-    font-size: 3.5vw;
+    font-size: min(48PX, 5vw);
 
 }
 #paginas{
     color: white;
     margin: 0px;
-    padding: 5px;
+    padding: 61.7px 0PX 61.7PX 30PX;
     font-family: 'Sriracha', cursiva;
-    font-size: 3.5vw;
+    font-size: 48px;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -83,20 +89,33 @@ a:hover{
     padding: 5px;
     margin: 0px;
     text-shadow: 1px 1px 0px black;
-    width: 95vh;
+    width: 43%;
+    
 }
 #paginas > p{
     background-color:rgba(0, 0, 0, 0.514);
     padding: 5px;
     margin: 0px;
     text-shadow: 1px 1px 0px black;
-    width: 95vh;
+    width: 43%;
+    
    
 }
 footer{
     color: white;
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
     margin: 0px;
     padding: 10px;
     text-align: center;
+}
+footer > p{
+    margin: 0px;
+    padding: 0px;
+}
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
 }
