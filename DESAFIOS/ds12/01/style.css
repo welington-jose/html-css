@@ -22,9 +22,10 @@ header{
 header > h1{
     color: white;
     font-family: "passion one";
-    font-size: min(136px, 10vw);
+    font-size:  10vw;
     margin: 0px;
     padding: 50px 0px 0px;
+    font-variant: small-caps;
 }
 header > p{
     color: white;
@@ -43,8 +44,9 @@ a:hover{
     text-decoration: underline;
 
 }
-main{
-    line-height: 6em;
+
+section{
+    font-size: 3.5vw;
 }
 
 
@@ -53,13 +55,14 @@ main{
     margin: 0px;
     padding: 62px 0px 62px 30px;
     
+    
 }
 
 .normal > p{
     margin: 0px;
     padding: 0px 0px 96.61px;
     font-family: 'Sriracha', cursiva;
-    font-size: min(48PX, 10vw);
+   
 }
 
 #joaninha{
@@ -70,18 +73,18 @@ main{
     margin: 0px;
     padding: 61.7px 0PX 61.7PX 30PX;
     font-family: 'Sriracha', cursiva;
-    font-size: min(48PX, 5vw);
-
+   
+    
 }
 #paginas{
     color: white;
     margin: 0px;
     padding: 61.7px 0PX 61.7PX 30PX;
     font-family: 'Sriracha', cursiva;
-    font-size: 48px;
     background-image: url(imagens/background002.jpg);
     background-size: cover;
     background-attachment: fixed;
+    
 }
 
 #joaninha > p{
@@ -89,7 +92,8 @@ main{
     padding: 5px;
     margin: 0px;
     text-shadow: 1px 1px 0px black;
-    width: 43%;
+    display: inline-block;
+    
     
 }
 #paginas > p{
@@ -97,7 +101,8 @@ main{
     padding: 5px;
     margin: 0px;
     text-shadow: 1px 1px 0px black;
-    width: 43%;
+    display: inline-block;
+    
     
    
 }
