@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@700&display=swap');
+/*font-family: 'Passion One', cursiva;*/
+@import url('https://fonts.googleapis.com/css2? family= Sriracha & display=swap');
+    /*font-family: 'Sriracha', cursive;*/
+
+    :root{
+        --cor0: white;
+        --cor1: black;
+
+        --fonte-cabeçalho: 'Passion One', cursive;
+        --fonte-conteudo: 'Sriracha', cursive;
+        --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    *{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    section{
+        padding: 10vh 0px 10vh 30px;
+        line-height: 2em;
+        font-family: var(--fonte-conteudo);
+        font-size: 3.5vw;
+
+    }
+    section p{
+
+    }
+    header{
+        background-color: var(--cor1);
+        color: var(--cor0);
+    }
+    header h1{
+        font-family: var(--fonte-cabeçalho);
+        font-size: 10vw;
+        padding: 50px 0px 0px 0px;
+        text-align: center;
+        font-variant: small-caps;
+    }
+    header p{
+        text-align: center;
+        font-family: var(--fonte01);
+        padding: 0px 0px 50px 0px;
+
+        
+        
+        
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+       
+        
+    }
+    a:hover{
+        background-color: white;
+        color: black;
+        transition: 0.5s;
+        
+        
+    }
+    .normal{
+        background-color: var(--cor0);
+        color: var(--cor1);
+
+    }
+    .normal p{
+        padding: 0px 0px 95px 0px;
+    }
+    .imagem p{
+        background-color: rgba(0, 0, 0, 0.514);
+        color: white;
+        padding: 5px;
+        display: inline-block;
+
+    }
+    .imagem, #img01{
+        background-image: url(imagens/background001.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .imagem, #img02{
+        background-image: url(imagens/background002.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        margin: 0px;
+        text-align: center;
+        padding: 10px;
+        font-family: var(--fonte01);
+
+    }
