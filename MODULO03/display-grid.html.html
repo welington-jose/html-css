@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+
+    <style>
+        body{
+            margin: 0px;
+            height: 100vh;
+            width: 100vw;
+            font-size: 2em;
+            font-family: Arial, Helvetica, sans-serif;
+            
+            display: grid;
+            grid-template-areas: 
+            "header header"
+            "main aside"
+            "footer footer";
+
+            grid-template-rows: 30px 1fr/*altura linha completa*/ 40px; 
+            grid-template-columns: 1fr 150px;
+            
+
+
+        
+        }
+       header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: header;
+            background-color: green;
+        }
+        main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: main;
+            background-color: red;
+        }
+        aside{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: aside;
+            background-color: blue;
+        }
+        footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            grid-area: footer;
+            background-color: gray;
+        }
+
+    </style>
+
+    <body>
+        
+        
+            <header>Topo</header>
+             <main>Conteúdo</main>
+            <aside>Infos adicionais</aside>
+            <footer>Rodapé</footer>
+        
+
+    </body>
+    
+    
+
+</html>
